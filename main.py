@@ -25,7 +25,6 @@ def guessnum(chances, ranNum):
     while myChances < chances :
         start = time.time()
         guesserNum = int(input("Enter your guess: "))
-        print(ranNum)
         if guesserNum != ranNum:
             chances += 1
             if guesserNum > ranNum:
